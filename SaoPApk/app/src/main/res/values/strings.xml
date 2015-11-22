@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Surpresa Corinthians</string>
+
+
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="choose_image">Selecione a imagem:</string>
+    <string name="choose_audio">Selecione o grito:</string>
+    <string name="choose_time">Selecione o tempo de espera:</string>
+    <string name="start_scare">Vai!!</string>
+    <string name="share_button">Compart.</string>
+    <string name="play" translatable="false">Play</string>
+
+    <string-array name="time_arrays" >
+        <item>10 Segundos</item>
+        <item>15 Segundos</item>
+        <item>20 Segundos</item>
+        <item>25 Segundos</item>
+        <item>30 Segundos</item>
+        <item>35 Segundos</item>
+        <item>60 Segundos</item>
+        <item>75 Segundos</item>
+        <item>90 Segundos</item>
+    </string-array>
+
+    <string-array name="audio_arrays" >
+        <item>Vai Corinthians</item>
+        <item>Todo Poderoso</item>
+        <item>Bando de locos</item>
+        <item>Veio pra vencer</item>
+    </string-array>
+
+    <string-array name="image_arrays" >
+        <item>Logo 1</item>
+        <item>Logo 2</item>
+        <item>Nação</item>
+        <item>Torcida 1</item>
+        <item>Torcida 2</item>
+    </string-array>
+
+    <string name="title_activity_scare" translatable="false">Surpresa Corinthians</string>
+
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-9505366133372164/8299119138</string>
+    <string name="banner_ad_unit_id2" translatable="false">ca-app-pub-9505366133372164/1888351936</string>
+
+</resources>
