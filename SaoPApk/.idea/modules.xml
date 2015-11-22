@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CorinthiansApk.iml" filepath="$PROJECT_DIR$/CorinthiansApk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SaoPApk.iml" filepath="$PROJECT_DIR$/SaoPApk.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

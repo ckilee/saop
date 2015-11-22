@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="dev.br.corinthians" >
+    package="dev.br.saopaulo" >
 
     <uses-permission android:name="android.permission.VIBRATE" />
     <!-- Include required permissions for Google Mobile Ads to run-->
@@ -20,7 +20,7 @@
             android:value="@integer/google_play_services_version" />
 
         <activity
-            android:name="dev.br.corinthians.MainActivity"
+            android:name="dev.br.saopaulo.MainActivity"
             android:label="@string/title_activity_scare"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -31,16 +31,16 @@
         </activity>
 
         <receiver
-            android:name="dev.br.corinthians.ScareReceiver"
+            android:name="dev.br.saopaulo.ScareReceiver"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
-                <action android:name="dev.br.corinthians.OPEN_SCARE_SCREEN"></action>
+                <action android:name="dev.br.saopaulo.OPEN_SCARE_SCREEN"></action>
             </intent-filter>
         </receiver>
 
         <activity
-            android:name="dev.br.corinthians.ScareActivity"
+            android:name="dev.br.saopaulo.ScareActivity"
             android:label="@string/title_activity_scare"
             android:screenOrientation="portrait"></activity>
 
