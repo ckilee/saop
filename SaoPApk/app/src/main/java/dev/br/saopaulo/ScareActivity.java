@@ -65,21 +65,20 @@ public class ScareActivity extends Activity {
     }
 
     private void loadInterstistialAD(){
-        try {
+        /*try {
             mInterstitialAd = MainActivity.getInstance().getInterstitialAd();
         } catch(NullPointerException ne){
             mInterstitialAd = new InterstitialAd(this);
-            mInterstitialAd.setAdUnitId(this.getString(R.string.banner_ad_unit_id));
-            /*AdRequest adRequestInterstitialAd = new AdRequest.Builder()
+            mInterstitialAd.setAdUnitId(this.getString(R.string.banner_ad_unit_surprise_activity_intertistial));
+            AdRequest adRequestInterstitialAd = new AdRequest.Builder()
                     .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
-                    .addTestDevice("E112885C2D32D31690C7B60F25C89356")
-                    .addTestDevice("13E7A5DDF2981F979D554ED02BC571B3")
-                    .build();*/
-            AdRequest adRequestInterstitialAd = new AdRequest.Builder().build();
+                    .addTestDevice("6B95C2235F71E07117E929AE067BED28")
+                    .build();
+            //AdRequest adRequestInterstitialAd = new AdRequest.Builder().build();
 
             mInterstitialAd.loadAd(adRequestInterstitialAd);
             intertistialLoadedLocally = true;
-        }
+        }*/
     }
 
     private void displayInterstitial(){
@@ -125,7 +124,7 @@ public class ScareActivity extends Activity {
 
         @Override
         protected void onPostExecute(Void param) {
-            //displayInterstitial();
+            displayInterstitial();
         }
     }
 

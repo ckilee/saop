@@ -51,6 +51,8 @@
         android:layout_alignParentStart="true" />
 
     <Spinner
+        android:elevation="5dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/spinner_audio"
@@ -75,6 +77,8 @@
         android:layout_alignEnd="@+id/choose_audio" />
 
     <Spinner
+        android:elevation="5dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/spinner_image"
@@ -101,7 +105,8 @@
         android:scaleType="fitCenter" /> -->
 
     <ImageView
-
+        android:elevation="5dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:id="@+id/imageView"
@@ -127,6 +132,8 @@
         android:textStyle="bold" />
 
     <Spinner
+        android:elevation="5dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/spinner_time"
@@ -140,6 +147,7 @@
         android:layout_toLeftOf="@+id/button_play" />
 
     <Button
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button_play"
@@ -158,6 +166,8 @@
         android:id="@+id/space" />
 
     <Button
+        android:elevation="5dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/start_scare"
@@ -171,6 +181,8 @@
         android:layout_alignEnd="@+id/space" />
 
     <Button
+        android:elevation="5dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/share_button"
@@ -191,7 +203,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         ads:adSize="BANNER"
-        ads:adUnitId="@string/banner_ad_unit_id2"
+        ads:adUnitId="@string/banner_ad_unit_main_activity_banner"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"

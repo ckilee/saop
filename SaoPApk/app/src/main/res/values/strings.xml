@@ -28,6 +28,7 @@
         <item>Independente</item>
         <item>Bota pra F.</item>
         <item>Chupa Corinthians</item>
+        <item>Chupa Palmeiras</item>
     </string-array>
 
     <string-array name="image_arrays" >
@@ -40,11 +41,15 @@
         <item>Rogerio 2</item>
         <item>Chupa Corinthians 1</item>
         <item>Chupa Corinthians 2</item>
+        <item>Chupa Palmeiras</item>
     </string-array>
 
     <string name="title_activity_scare" translatable="false">Surpresa São Paulo</string>
-
-    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-9505366133372164/8299119138</string>
-    <string name="banner_ad_unit_id2" translatable="false">ca-app-pub-9505366133372164/1888351936</string>
+    <!--
+    <string name="banner_ad_unit_main_activity_banner" translatable="false">ca-app-pub-9505366133372164/8371009938</string>
+    <string name="banner_ad_unit_surprise_activity_intertistial" translatable="false">ca-app-pub-9505366133372164/2324476331</string>
+    -->
+    <string name="banner_ad_unit_main_activity_banner" translatable="false"></string>
+    <string name="banner_ad_unit_surprise_activity_intertistial" translatable="false"></string>
 
 </resources>

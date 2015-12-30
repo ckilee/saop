@@ -94,19 +94,17 @@ public class MainActivity extends Activity {
         //AdRequest adRequest = new AdRequest.Builder().build();
         AdRequest adRequest = new AdRequest.Builder()
                 .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
-                .addTestDevice("E112885C2D32D31690C7B60F25C89356")
-                .addTestDevice("13E7A5DDF2981F979D554ED02BC571B3")
+                .addTestDevice("6B95C2235F71E07117E929AE067BED28")
                 .build();
 
         mAdView.loadAd(adRequest);
 
         //Adware interstitial ads
         mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId(this.getString(R.string.banner_ad_unit_id));
+        mInterstitialAd.setAdUnitId(this.getString(R.string.banner_ad_unit_surprise_activity_intertistial));
         AdRequest adRequestInterstitialAd = new AdRequest.Builder()
                 .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
-                .addTestDevice("E112885C2D32D31690C7B60F25C89356")
-                .addTestDevice("13E7A5DDF2981F979D554ED02BC571B3")
+                .addTestDevice("6B95C2235F71E07117E929AE067BED28")
                 .build();
         //AdRequest adRequestInterstitialAd = new AdRequest.Builder().build();
 
@@ -228,6 +226,8 @@ public class MainActivity extends Activity {
                 imageResource = R.drawable.chupacorinthians;
             } else if(pos==8){
                 imageResource = R.drawable.chupacorinthians2;
+            } else if(pos==9){
+                imageResource = R.drawable.chupa_palmeiras;
             }
 
             currentImageID = imageResource;
@@ -286,6 +286,8 @@ public class MainActivity extends Activity {
                 currentSoundID = R.raw.botaprafu;
             if(pos==4)
                 currentSoundID = R.raw.chupacorinthians;
+            if(pos==5)
+                currentSoundID = R.raw.chupa_palmeiras;
         }
 
         @Override
